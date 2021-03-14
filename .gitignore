@@ -1,3 +1,4 @@
-
+scrcpyGui/bin/
+scrcpyGui/obj/
 *.lref
 *.cache
