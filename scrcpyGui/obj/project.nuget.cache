@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ia348t36ozHyKOBRWzzqMmiAbuxjSepxFxlz4y9Ge7qS9kC1UxQ9KdUKOOSytSCu+3IXGuucnDTZukYfCbPilA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\austi\\source\\repos\\scrcpyGuig\\scrcpyGui\\scrcpyGui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\austi\\.nuget\\packages\\adonisui\\1.17.0\\adonisui.1.17.0.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\adonisui.classictheme\\1.17.0\\adonisui.classictheme.1.17.0.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\ookii.dialogs.wpf\\3.1.0\\ookii.dialogs.wpf.3.1.0.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

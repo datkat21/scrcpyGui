@@ -1,0 +1,31 @@
+﻿<adonisControls:AdonisWindow x:Class="scrcpyGui.Settings"
+        xmlns:adonisExtensions="clr-namespace:AdonisUI.Extensions;assembly=AdonisUI"
+        xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI"
+        xmlns:adonisControls="clr-namespace:AdonisUI.Controls;assembly=AdonisUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterOwner"
+        xmlns:local="clr-namespace:scrcpyGui"
+        mc:Ignorable="d"
+        Title="Settings" Height="342" Width="575" Background="#2a2b34">
+    <Window.Resources>
+        <Style TargetType="ToolTip" BasedOn="{StaticResource {x:Type ToolTip}}">
+            <Setter Property="Background" Value="#2a2b34" />
+            <Setter Property="Foreground" Value="White"  />
+            <Setter Property="BorderBrush" Value="#4E4F5A"  />
+            <Setter Property="BorderThickness" Value="1"  />
+        </Style>
+        <Style TargetType="Window" BasedOn="{StaticResource {x:Type Window}}"/>
+    </Window.Resources>
+    <Grid>
+        <DockPanel>
+            <ListBox Padding="5,5,5,5" DockPanel.Dock="Left" Background="#FF26262C" Width="100" HorizontalAlignment="Left">
+                <ListBoxItem FontSize="15" Margin="0,0,0,5" PreviewMouseDown="GeneralTab_PreviewMouseDown" Content="General" x:Name="GeneralTab" IsSelected="True"/>
+                <ListBoxItem FontSize="15" Margin="0,0,0,5" PreviewMouseDown="StreamingTab_PreviewMouseDown" Content="Streaming" x:Name="StreamingTab" />
+            </ListBox>
+            <Frame NavigationUIVisibility="Hidden" Margin="{adonisUi:Space}" x:Name="SettingsFrame" Source="/Pages/SettingsGeneral.xaml"/>
+        </DockPanel>
+    </Grid>
+</adonisControls:AdonisWindow>
